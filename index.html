@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src=""https://code.jquery.com/jquery-3.6.1.min.js""></script>
+    <script>
+          setTimeout(() => { alert('Howdy!'); }, 2000);
+         
+
+
+    </script>
+    <style>
+        body{
+            margin: 0;
+            overflow: hidden;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        #messages{
+            height: 88vh;
+            overflow: hidden;
+            padding: 10px;
+            background-image: url(app.png);
+        }
+        form{
+            display: flex;
+        }
+        input{
+            font-size: 1.2rem;
+            padding: 10px;
+            margin: 10px 5px;
+            appearance: none;
+            -webkit-appearance: none;
+            border: 1px solid white;
+            border-radius: 5px;
+        }
+        #message{
+            flex:2
+        }
+    </style>
+</head>
+<body>
+    <div id="messages"></div>
+    <form>
+        <input type="text" id="meassge" autocomplete="off" autofocus placeholder="type message...">
+        <input type="submit" value="Send" id="exp()">
+
+    </form>
+    
+</body>
+</html>
